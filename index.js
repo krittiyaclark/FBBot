@@ -17,8 +17,7 @@ app.get('/', function (req, res) {
 })
 
 app.get('/webhook', function(req, res){
-  if(req.query['hub.verify_token'] ===
-    'my_voice_is_my_password_verify_me') {
+  if(req.query['hub.verify_token'] === 'chatbot') {
         res.send(req.query['hub.challenge'])
     }
   res.send('No entry')
