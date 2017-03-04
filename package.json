@@ -1,0 +1,31 @@
+{
+  "name": "facebookbot",
+  "version": "0.5.0",
+  "description": "First facebook bot!",
+  "main": "index.js",
+  "scripts": {
+    "test": "later"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krittiyaclark/FBBot.git"
+  },
+  "keywords": [
+    "facebook",
+    "messager",
+    "bot",
+    "node",
+    "heroku"
+  ],
+  "author": "Krittiya Clark",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/krittiyaclark/FBBot/issues"
+  },
+  "homepage": "https://github.com/krittiyaclark/FBBot#readme",
+  "dependencies": {
+    "body-parser": "^1.17.0",
+    "express": "^4.15.0",
+    "request": "^2.80.0"
+  }
+}
